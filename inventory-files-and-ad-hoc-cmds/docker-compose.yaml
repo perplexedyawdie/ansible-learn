@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  ansible:
+    build:
+      context: ./ansible
+    ports:
+      - "2200:22"
+    volumes:
+      - type: volume
+        source: ssh_store_ansible
+        target: /root/.ssh
+    cap_add:
+      - AUDIT_WRITE
+    depends_on:
+      - server1
+      - server2
+      - server3
+
+  server1:
+    build:
+      context: ./server
+    volumes:
+      - type: volume
+        source: ssh_store_server1
+        target: /root/.ssh
+    cap_add:
+      - AUDIT_WRITE
+
+  server2:
+    build:
+      context: ./server
+    volumes:
+      - type: volume
+        source: ssh_store_server2
+        target: /root/.ssh
+    cap_add:
+      - AUDIT_WRITE
+
+  server3:
+    build:
+      context: ./server
+    volumes:
+      - type: volume
+        source: ssh_store_server3
+        target: /root/.ssh
+    cap_add:
+      - AUDIT_WRITE
+
+volumes:
+  ssh_store_ansible:
+  ssh_store_server1:
+  ssh_store_server2:
+  ssh_store_server3:
