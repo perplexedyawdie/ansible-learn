@@ -12,7 +12,7 @@ When learning Ansible, I wanted a resource that would efficiently bring me up to
 
 You will learn the following:
 
-### Part 1
+### [Part 1](https://github.com/perplexedyawdie/ansible-learn/tree/main/inventory-files-and-ad-hoc-cmds)
 
 #### Ansible Basics and Inventory Setup
 - Objective: Understand Ansible architecture and setup an inventory file.
