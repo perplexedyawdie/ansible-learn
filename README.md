@@ -20,7 +20,7 @@ You will learn the following:
 #### Ad-Hoc Commands
 - Objective: Learn how to execute ad-hoc commands using Ansible.
 
-### Part 2
+### [Part 2](https://github.com/perplexedyawdie/ansible-learn/tree/main/playbooks-task-control-handlers)
 
 #### Playbooks Introduction
 - Objective: Introduction to Ansible Playbooks.
