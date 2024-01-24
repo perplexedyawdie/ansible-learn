@@ -16,7 +16,7 @@ We'll start with two pre-configured inventory files. Inventory-webserver1.yaml c
 ```sh
 git clone https://github.com/perplexedyawdie/ansible-learn.git
 ```
-2. Change directory to inventory-files-and-ad-hoc-cmds
+2. Change directory to **playbooks-task-control-handlers**
 ```sh
 cd ansible-learn/playbooks-task-control-handlers
 ```
