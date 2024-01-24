@@ -1,0 +1,4 @@
+webserver1:
+ hosts:
+   server1:
+   server2:
