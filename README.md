@@ -28,7 +28,7 @@ You will learn the following:
 #### Task Control and Handlers
 - Objective: Understand task control mechanisms and handlers.
 
-### Part 3
+### [Part 3](https://github.com/perplexedyawdie/ansible-learn/tree/main/facts-and-templates)
 
 #### Variables and Facts
 - Objective: Learn about Ansible variables and gather facts.
