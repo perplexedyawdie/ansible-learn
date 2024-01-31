@@ -37,7 +37,7 @@ You will learn the following:
 - Objective: Understand how to manage configuration files 
 with templates.
 
-### Part 4
+### [Part 4](https://github.com/perplexedyawdie/ansible-learn/tree/main/modularization-and-debugging)
 
 #### Roles and Modularization
 - Objective: Learn about roles for playbook modularization.
